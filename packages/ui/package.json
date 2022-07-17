@@ -1,0 +1,69 @@
+{
+    "author": "Softjunk Developers",
+    "bugs": {
+        "url": "https://github.com/softjunkorg/packages/issues"
+    },
+    "dependencies": {
+        "copy-to-clipboard": "^3.3.1",
+        "react-helmet": "^6.1.0",
+        "rollup-plugin-ts": "^3.0.2",
+        "styled-components": "^5.3.5"
+    },
+    "description": "Created for being used with ReactJS on SoftJunk FiveM framework!",
+    "devDependencies": {
+        "@rollup/plugin-babel": "^5.3.1",
+        "@rollup/plugin-commonjs": "^21.1.0",
+        "@rollup/plugin-json": "^4.1.0",
+        "@rollup/plugin-node-resolve": "^13.2.1",
+        "@types/moment": "^2.13.0",
+        "@types/node": "^17.0.25",
+        "@types/react": "18.0.6",
+        "@types/react-dom": "^18.0.2",
+        "@types/styled-components": "^5.1.25",
+        "postcss": "^8.4.12",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0",
+        "rollup": "^2.72.0",
+        "rollup-plugin-peer-deps-external": "^2.2.4",
+        "rollup-plugin-postcss": "^4.0.2",
+        "rollup-plugin-sourcemaps": "^0.6.3",
+        "rollup-plugin-terser": "^7.0.2",
+        "tslib": "^2.4.0",
+        "typescript": "^4.6.3"
+    },
+    "directories": {
+        "dist": "dist"
+    },
+    "files": [
+        "/dist"
+    ],
+    "gitHead": "38f5cb944741b949327551f8443448970e644209",
+    "homepage": "https://github.com/softjunkorg/packages#readme",
+    "keywords": [
+        "reactjs",
+        "typescript",
+        "softjunk",
+        "ui",
+        "fivem",
+        "framework",
+        "antd"
+    ],
+    "license": "MIT",
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "name": "@softjunk/ui",
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/softjunkorg/packages.git"
+    },
+    "scripts": {
+        "build": "node .build/builder.js",
+        "clean": "rimraf dist softjunk-ui-*.tgz",
+        "watch": "node .build/builder.js --watch"
+    },
+    "types": "dist/index.d.ts",
+    "version": "0.0.0"
+}

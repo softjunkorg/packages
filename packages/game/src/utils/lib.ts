@@ -1,0 +1,33 @@
+import variables from "./variables";
+
+var is_initiazated = false;
+
+export function CreateThread(handler: Function): void {
+    function call(resource) {
+        if (resource === variables.RESOURCE_NAME) {
+            is_initiazated = true;
+            handler();
+        }
+    }
+
+    if (is_initiazated) {
+        call(variables.RESOURCE_NAME);
+    }
+
+    if (!is_initiazated)
+        if (variables.IS_RESOURCE_SERVER) on("onServerResourceStart", call);
+        else on("onClientResourceStart", call);
+}
+
+if (variables.IS_RESOURCE_SERVER)
+    on("onServerResourceStart", () => (is_initiazated = true));
+else on("onClientResourceStart", () => (is_initiazated = true));
+
+export function CreatePromise(
+    handler: (
+        resolve: (value: unknown) => void,
+        reject: (reason?: any) => void
+    ) => void
+) {
+    return new Promise(handler);
+}

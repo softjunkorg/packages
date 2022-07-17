@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "esnext",
+        "jsx": "react-jsx",
+        "sourceMap": false,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "types": ["@citizenfx/server", "@citizenfx/client", "@types/node"],
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "declaration": true,
+        "outDir": "dts",
+        "resolveJsonModule": true
+    }
+}

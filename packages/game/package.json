@@ -1,0 +1,54 @@
+{
+    "author": "Softjunk Developers <softjunkdevs@gmail.com>",
+    "bugs": {
+        "url": "https://github.com/softjunk/packages/issues"
+    },
+    "dependencies": {
+        "@citizenfx/client": "^2.0.5712-1",
+        "@citizenfx/server": "^2.0.5712-1",
+        "fivem-js": "^1.5.2"
+    },
+    "description": "Created for beeing used on Client and Server development!",
+    "devDependencies": {
+        "@types/node": "^17.0.25",
+        "colors": "^1.4.0",
+        "esbuild": "^0.14.49",
+        "esbuild-plugin-d.ts": "^1.1.0",
+        "proxy-deep": "^3.1.1",
+        "tslib": "^2.4.0",
+        "typescript": "^4.6.3"
+    },
+    "directories": {
+        "dist": "dist"
+    },
+    "files": [
+        "/dist"
+    ],
+    "gitHead": "38f5cb944741b949327551f8443448970e644209",
+    "homepage": "https://github.com/softjunkorg/packages#readme",
+    "keywords": [
+        "typescript",
+        "softjunk",
+        "fivem",
+        "framework",
+        "utils"
+    ],
+    "license": "MIT",
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "name": "@softjunk/game",
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/softjunkorg/packages.git"
+    },
+    "scripts": {
+        "build": "node .build/builder.js",
+        "clean": "rimraf dist softjunk-game-*.tgz",
+        "watch": "node .build/builder.js --watch"
+    },
+    "types": "dist/types.d.ts",
+    "version": "0.0.0"
+}
