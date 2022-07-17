@@ -1,23 +1,23 @@
 # @softjunk/game
 
-A package for helping the developers that are using the softjunk framework to speed up their development. It have a lot of features and it is compiled more faster, with ESBuild. Use on both client and server files.
+A Typescript package that helps client-side and server-side developers using the Softjunk framework to speed up their development. It has many features and compiles faster and in a smaller size with ESBuild.
 
-## Installation
+## 🚀 Installation
 
 Install the package by running
 
 ```bash
-  npm install @softjunk/game
+  npm install --save-dev @softjunk/game
 ```
 
-## Documentation
+## 📒 Documentation
 
 The documentation is beeing prepared, we are going to provide soon as possible.
 
-## Authors
+## 🔨 Authors
 
 -   [@felpsdev](https://www.github.com/felpsdev)
 
-## License
+## 📃 License
 
 [MIT](https://choosealicense.com/licenses/mit/)

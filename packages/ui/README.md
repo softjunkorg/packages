@@ -1,8 +1,12 @@
 # @softjunk/ui
 
-An ui package for be used on the framework ui's for speeding up the code developing
+A ReactJS Typescript package that helps developers on UI, who use the Softjunk framework, to speed up their development. It has many features and compiles faster and in a smaller size using ESBuild. Use it with React. (ONLY USE WITH REACT)
 
-## Installation
+## 🔌 Dependencies
+
+-   React: 18 <=
+
+## 🚀 Installation
 
 Install the package by running
 
@@ -10,14 +14,14 @@ Install the package by running
   npm install --save-dev @softjunk/ui
 ```
 
-## Documentation
+## 📒 Documentation
 
-The documentation is beeing prepared, we are going to provide soon as possible.
+The documentation is in preparation, we will provide it as soon as possible.
 
-## Authors
+## 🔨 Authors
 
 -   [@felpsdev](https://www.github.com/felpsdev)
 
-## License
+## 📃 License
 
 [MIT](https://choosealicense.com/licenses/mit/)
