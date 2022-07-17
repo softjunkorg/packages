@@ -16,7 +16,7 @@ Install the packages by running
 
 ## Documentation
 
-Acess the documentation by clicking [here](https://softjunkorg.github.io).
+Acess the documentation by clicking \_\_
 
 ## Authors
 

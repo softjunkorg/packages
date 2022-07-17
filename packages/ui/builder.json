@@ -1,0 +1,11 @@
+{
+    "bundle": true,
+    "entryPoints": ["./src/index.ts"],
+    "format": "cjs",
+    "minify": true,
+    "outdir": "./dist",
+    "platform": "node",
+    "target": ["node16"],
+    "external": ["react", "react-dom", "styled-components", "moment"],
+    "inject": ["./react-shim.js"]
+}
