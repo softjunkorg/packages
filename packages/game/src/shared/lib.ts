@@ -28,6 +28,10 @@ export function CreatePromise(
         resolve: (value: unknown) => void,
         reject: (reason?: any) => void
     ) => void
-) {
+): Promise<unknown> {
     return new Promise(handler);
+}
+
+export function Wait(milliseconds: number): Promise<unknown> {
+    return CreatePromise((resolve) => setTimeout(resolve, milliseconds));
 }

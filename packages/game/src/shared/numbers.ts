@@ -3,5 +3,3 @@ export function GenRandomInt(min: number, max: number): number {
         Math.random() * (Math.floor(max) - Math.ceil(min)) + Math.ceil(min)
     );
 }
-
-export type gimme = string;

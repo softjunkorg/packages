@@ -50,6 +50,12 @@ export function CreateResourceExport(object?: object) {
         return entries;
     }
 
+    var entries = mapObject(object);
+
+    entries.map((e) => {
+        methods.push({ name: e, handler: object[e] });
+    });
+
     function Add(method: string, handler: Function) {
         if (!methods.find((m) => m.name === method)) {
             methods.push({ name: method, handler });
