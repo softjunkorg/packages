@@ -5,7 +5,6 @@
     },
     "dependencies": {
         "copy-to-clipboard": "^3.3.1",
-        "react-helmet": "^6.1.0",
         "styled-components": "^5.3.5"
     },
     "description": "Created for being used with ReactJS on SoftJunk FiveM framework!",
