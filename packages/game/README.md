@@ -1,4 +1,4 @@
-# @softjunk/game
+# @softjunk/game · ![npm](https://img.shields.io/npm/v/@softjunk/game?style=for-the-badge) ![npm bundle size](https://img.shields.io/bundlephobia/min/@softjunk/game?style=for-the-badge) ![npm](https://img.shields.io/npm/dm/@softjunk/game?style=for-the-badge)
 
 A Typescript package that helps client-side and server-side developers using the Softjunk framework to speed up their development. It has many features and compiles faster and in a smaller size with ESBuild.
 
