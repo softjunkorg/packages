@@ -2,19 +2,12 @@
     "author": "Softjunk Developers <softjunkdevs@gmail.com>",
     "dependencies": {
         "@types/node": "^17.0.25",
-        "@types/react": "^18.0.6",
-        "@types/react-dom": "^18.0.2",
-        "lerna": "^5.1.8",
-        "lua-fmt": "^2.6.0",
-        "luamin": "^1.0.4",
-        "luaparse": "^0.3.1",
+        "eslint": "^8.20.0",
+        "lerna": "^3.1.4",
         "prettier": "^2.6.2",
-        "react": "^18.0.0",
-        "react-dom": "^18.0.0",
         "rimraf": "^3.0.2",
         "stream": "0.0.2",
-        "typescript": "^4.6.3",
-        "uuid": "^8.3.2"
+        "typescript": "^4.6.3"
     },
     "description": "An FiveM framework for developers!",
     "keywords": [],
@@ -32,10 +25,11 @@
         "clean": "lerna run clean",
         "format": "lerna exec -- prettier --write src/",
         "package": "lerna exe -- npm pack",
-        "watch": "lerna run watch"
+        "watch": "lerna run watch",
+        "lint": "eslint --ext .ts,.js .",
+        "lint:fix": "yarn lint --fix"
     },
     "workspaces": [
-        "packages/*",
-        "example"
+        "packages/*"
     ]
 }
