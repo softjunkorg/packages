@@ -1,13 +1,44 @@
 {
-    "author": "Softjunk Developers",
+    "name": "@softjunk/ui",
+    "version": "0.0.4",
+    "description": "Used with ReactJS on SoftJunk FiveM framework!",
+    "keywords": [
+        "reactjs",
+        "typescript",
+        "softjunk",
+        "ui",
+        "fivem",
+        "framework",
+        "antd"
+    ],
+    "homepage": "https://github.com/softjunkorg/packages#readme",
     "bugs": {
         "url": "https://github.com/softjunkorg/packages/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/softjunkorg/packages.git"
+    },
+    "license": "MIT",
+    "author": "Softjunk Developers <softjunkdevs@gmail.com>",
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "directories": {
+        "dist": "dist"
+    },
+    "files": [
+        "/dist"
+    ],
+    "scripts": {
+        "build": "node .build/builder.js",
+        "clean": "rimraf dist softjunk-ui-*.tgz",
+        "watch": "node .build/builder.js --watch"
     },
     "dependencies": {
         "copy-to-clipboard": "^3.3.1",
         "styled-components": "^5.3.5"
     },
-    "description": "Used with ReactJS on SoftJunk FiveM framework!",
     "devDependencies": {
         "@types/moment": "^2.13.0",
         "@types/node": "^17.0.25",
@@ -23,39 +54,8 @@
         "react": "^18.x",
         "react-dom": "^18.x"
     },
-    "directories": {
-        "dist": "dist"
-    },
-    "files": [
-        "/dist"
-    ],
-    "gitHead": "38f5cb944741b949327551f8443448970e644209",
-    "homepage": "https://github.com/softjunkorg/packages#readme",
-    "keywords": [
-        "reactjs",
-        "typescript",
-        "softjunk",
-        "ui",
-        "fivem",
-        "framework",
-        "antd"
-    ],
-    "license": "MIT",
-    "main": "dist/index.js",
-    "module": "dist/index.js",
-    "name": "@softjunk/ui",
     "publishConfig": {
         "access": "public"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/softjunkorg/packages.git"
-    },
-    "scripts": {
-        "build": "node .build/builder.js",
-        "clean": "rimraf dist softjunk-ui-*.tgz",
-        "watch": "node .build/builder.js --watch"
-    },
-    "types": "dist/index.d.ts",
-    "version": "0.0.4"
+    "gitHead": "38f5cb944741b949327551f8443448970e644209"
 }

@@ -1,14 +1,43 @@
 {
-    "author": "Softjunk Developers <softjunkdevs@gmail.com>",
+    "name": "@softjunk/game",
+    "version": "0.0.4",
+    "description": "Used on Client and Server development on the Softjunk FiveM Framework!",
+    "keywords": [
+        "typescript",
+        "softjunk",
+        "fivem",
+        "framework",
+        "utils"
+    ],
+    "homepage": "https://github.com/softjunkorg/packages#readme",
     "bugs": {
         "url": "https://github.com/softjunk/packages/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/softjunkorg/packages.git"
+    },
+    "license": "MIT",
+    "author": "Softjunk Developers <softjunkdevs@gmail.com>",
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "types": "dist/types.d.ts",
+    "directories": {
+        "dist": "dist"
+    },
+    "files": [
+        "/dist"
+    ],
+    "scripts": {
+        "build": "rimraf dist && node .build/builder.js",
+        "clean": "rimraf dist softjunk-game-*.tgz",
+        "watch": "rimraf dist && node .build/builder.js --watch"
     },
     "dependencies": {
         "@citizenfx/client": "^2.0.5712-1",
         "@citizenfx/server": "^2.0.5712-1",
         "fivem-js": "^1.5.2"
     },
-    "description": "Used on Client and Server development on the Softjunk FiveM Framework!",
     "devDependencies": {
         "@types/node": "^17.0.25",
         "colors": "^1.4.0",
@@ -17,37 +46,8 @@
         "proxy-deep": "^3.1.1",
         "typescript": "^4.6.3"
     },
-    "directories": {
-        "dist": "dist"
-    },
-    "files": [
-        "/dist"
-    ],
-    "gitHead": "38f5cb944741b949327551f8443448970e644209",
-    "homepage": "https://github.com/softjunkorg/packages#readme",
-    "keywords": [
-        "typescript",
-        "softjunk",
-        "fivem",
-        "framework",
-        "utils"
-    ],
-    "license": "MIT",
-    "main": "dist/index.js",
-    "module": "dist/index.js",
-    "name": "@softjunk/game",
     "publishConfig": {
         "access": "public"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/softjunkorg/packages.git"
-    },
-    "scripts": {
-        "build": "rimraf dist && node .build/builder.js",
-        "clean": "rimraf dist softjunk-game-*.tgz",
-        "watch": "rimraf dist && node .build/builder.js --watch"
-    },
-    "types": "dist/types.d.ts",
-    "version": "0.0.4"
+    "gitHead": "38f5cb944741b949327551f8443448970e644209"
 }
