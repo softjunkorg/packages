@@ -2,6 +2,7 @@
     "author": "Softjunk Developers <softjunkdevs@gmail.com>",
     "dependencies": {
         "@types/node": "^17.0.25",
+        "babel-eslint": "^10.1.0",
         "eslint": "^8.20.0",
         "lerna": "^3.1.4",
         "prettier": "^2.6.2",
