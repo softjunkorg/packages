@@ -1,4 +1,4 @@
-# Packages · ![npm](https://img.shields.io/npm/v/@softjunk/game?style=for-the-badge)
+# Packages · ![npm](https://img.shields.io/npm/v/@softjunk/game?style=flat-square)
 
 This project contains the npm packages created for softjunk developers to speed up programming on project resources, such as the framework. It has ui features to work with ReactJS and Typescript.
 

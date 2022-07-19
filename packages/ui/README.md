@@ -1,4 +1,4 @@
-# @softjunk/ui · ![npm](https://img.shields.io/npm/v/@softjunk/ui?style=for-the-badge) ![npm bundle size](https://img.shields.io/bundlephobia/min/@softjunk/ui?style=for-the-badge) ![npm](https://img.shields.io/npm/dm/@softjunk/ui?style=for-the-badge)
+# @softjunk/ui · ![npm](https://img.shields.io/npm/v/@softjunk/ui?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/min/@softjunk/ui?style=flat-square) ![npm](https://img.shields.io/npm/dm/@softjunk/ui?style=flat-square)
 
 A ReactJS Typescript package that helps developers on UI, who use the Softjunk framework, to speed up their development. It has many features and compiles faster and in a smaller size using ESBuild. Use it with React. (ONLY USE WITH REACT)
 
