@@ -1,13 +1,13 @@
-# @softjunk/game
+# @softjunk/cli
 
-A Typescript package that helps client-side and server-side developers using the Softjunk framework to speed up their development. It has many features and compiles faster and in a smaller size with ESBuild.
+A CLI for increase the developing speed, created with Javascript for Softjunk Framework.
 
 ## 🚀 Installation
 
 Install the package by running
 
 ```bash
-  npm install --save-dev @softjunk/game
+  npm install --save-dev @softjunk/cli
 ```
 
 ## 📒 Documentation
