@@ -8,7 +8,7 @@
         "@citizenfx/server": "^2.0.5712-1",
         "fivem-js": "^1.5.2"
     },
-    "description": "Created for beeing used on Client and Server development!",
+    "description": "Used on Client and Server development on the Softjunk FiveM Framework!",
     "devDependencies": {
         "@types/node": "^17.0.25",
         "colors": "^1.4.0",

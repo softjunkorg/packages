@@ -1,0 +1,49 @@
+{
+    "author": "Softjunk Developers <softjunkdevs@gmail.com>",
+    "bugs": {
+        "url": "https://github.com/softjunk/packages/issues"
+    },
+    "description": "CLI for Softjunk Framework development!",
+    "gitHead": "38f5cb944741b949327551f8443448970e644209",
+    "homepage": "https://github.com/softjunkorg/packages#readme",
+    "keywords": [
+        "cli",
+        "softjunk",
+        "fivem",
+        "framework"
+    ],
+    "type": "module",
+    "license": "MIT",
+    "main": "src/index.js",
+    "bin": {
+        "softjunk-cli": "bin/softjunk.js"
+    },
+    "name": "@softjunk/cli",
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/softjunkorg/packages.git"
+    },
+    "scripts": {
+        "build": "rimraf dist && node .build/builder.js",
+        "clean": "rimraf dist softjunk-cli-*.tgz",
+        "watch": "rimraf dist && node .build/builder.js --watch"
+    },
+    "version": "0.0.0",
+    "dependencies": {
+        "arg": "^5.0.2",
+        "boxen": "^7.0.0",
+        "chalk": "^5.0.1",
+        "commander": "^9.4.0",
+        "esm": "^3.2.25",
+        "execa": "^6.1.0",
+        "inquirer": "^8.2.4",
+        "listr2": "^4.0.5"
+    },
+    "files": [
+        "bin/",
+        "src/"
+    ]
+}

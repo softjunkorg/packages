@@ -4,7 +4,8 @@ A ReactJS Typescript package that helps developers on UI, who use the Softjunk f
 
 ## 🔌 Dependencies
 
--   React: 18 <=
+-   React: 18.x
+-   React-Dom: 18.x
 
 ## 🚀 Installation
 
